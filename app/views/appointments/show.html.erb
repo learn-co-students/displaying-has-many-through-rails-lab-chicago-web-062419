@@ -1,0 +1,3 @@
+<h2>Date: <%= @appointment.appointment_datetime%> </h2>
+<h3>Patient: <%= link_to @patient.name, patient_path(@patient.id) %></h3>
+<h3>Dcotor: <%= link_to @doctor.name, doctor_path(@doctor.id) %></h3>
